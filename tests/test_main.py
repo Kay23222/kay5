@@ -10,7 +10,7 @@ from main import app
 
 # Create a test client
 client = TestClient(app)
-
+#
 def test_admin_login_page():
     """Test that the admin login page returns a 200 status code."""
     response = client.get("/admin/login")
